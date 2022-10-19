@@ -1,0 +1,64 @@
+
+.swiper {
+     width: 100%;
+     height: 100%;
+   }
+   
+   .FilterSlider .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+   
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     text-align: center;
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 16px;
+     font-size: 18px;
+     color: #fff;
+     box-sizing: border-box;
+     padding: 13px 16px;
+     height: 50vh;
+   }
+   
+   .FilterSlider .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+   .radial-progress {
+     position: relative;
+     display: inline-grid;
+     height: var(--size);
+     width: var(--size);
+     place-content: center;
+     border-radius: 9999px;
+     background-color: transparent;
+     vertical-align: middle;
+     box-sizing: content-box;
+     --value: 0;
+     --size: 2.6rem!important;
+          --thickness: calc(var(--size) / 10);
+ }
+ .FilterSlider .swiper-wrapper{
+     padding: 27px 0px;
+ }
+ .FilterSlider .swiper-pagination {
+     display: none!important;
+ }
+
+   
