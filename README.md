@@ -71,11 +71,15 @@ Install my-project with npm
  - [daisy ui](https://daisyui.com/)
  - [vite js](https://vitejs.dev/)
  - [hero icons](https://heroicons.com/)
+ - [surge](https://surge.sh/)
  
 ## Demo
 
-Insert gif or link to demo
-[vite js](https://vitejs.dev/)
+ link to demo
+[React.JS movies platform ](https://63528b829588ca3de3904278--fluffy-cuchufli-91a178.netlify.app/)
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
+![img1](img1.png?raw=true "Title")
+![img1](img2.png?raw=true "Title")
+![img1](img3.png?raw=true "Title")
+![img1](img4.png?raw=true "Title")
+![img1](img5.png?raw=true "Title")
