@@ -60,5 +60,8 @@
  .FilterSlider .swiper-pagination {
      display: none!important;
  }
-
+ .filter-wrapper button{
+  min-height: 2rem!important;
+  height: 1.7rem!important;
+}
    

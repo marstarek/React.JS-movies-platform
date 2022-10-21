@@ -33,7 +33,7 @@
    
    .swiper-slide .title {
      font-size: 41px;
-     font-weight: 300;
+     font-weight: 500;
    }
    
    .swiper-slide .subtitle {
@@ -41,8 +41,8 @@
    }
    
    .swiper-slide .text {
-     font-size: 14px;
-     max-width: 400px;
+     font-size: 20px;
+     max-width: 600px;
      line-height: 1.3;
    }
   
