@@ -76,7 +76,7 @@ Install my-project with npm
 ## Demo
 
  link to demo
-[React.JS movies platform ](https://63528b829588ca3de3904278--fluffy-cuchufli-91a178.netlify.app/)
+[React.JS movies platform ](https://fluffy-cuchufli-91a178.netlify.app/)
  
 ![img1](img3.png?raw=true "Title")
 ![img1](img1.png?raw=true "Title")
