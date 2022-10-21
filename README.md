@@ -59,6 +59,10 @@ Install my-project with npm
   cd React.JS movies platform
   npm install 
   npm run dev
+  npm run build
+  cd build
+  cp index.html 200.html
+  surge
 ```
     
 ## Acknowledgements
@@ -77,7 +81,12 @@ Install my-project with npm
 
  link to demo
 [React.JS movies platform ](https://63528b829588ca3de3904278--fluffy-cuchufli-91a178.netlify.app/)
- 
+[React.JS movies platform ](https://industrious-digestion.surge.sh/)
+
+
+
+
+
 ![img1](img3.png?raw=true "Title")
 ![img1](img1.png?raw=true "Title")
 ![img1](img2.png?raw=true "Title")
