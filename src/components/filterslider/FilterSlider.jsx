@@ -97,7 +97,7 @@ export default function FilterSlider({ isLoading, movies, dispatch, getmovie }) 
           }}
         >
           <div className="">
-            <h2 className="text-center font-bold text-transparent text-l text-white">  {movie.title}</h2>
+            <h2 className="text-center font-bold text-transparent text-l text-red-50">  {movie.title}</h2>
             <p>{movie.original_language}</p>
             <div
               className=" flex items-center
