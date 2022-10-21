@@ -12,12 +12,13 @@ function List() {
 <>
 <h1 className='text-center pb-8 font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-red-800 to-red-500'>Top Rated</h1>
 <div>
-      <div className="container mx-auto  grid grid-cols-2 lg:grid-cols-4  md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-4">
+        <div className="container mx-auto px-3  grid grid-cols-2 lg:grid-cols-4  md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-4">
+          
       {isloading ? (
-        <div role="status" className="flex justify-center">
+        <div role="status" className="flex justify-center col-span-4">
           <svg
             aria-hidden="true"
-            className=" mr-2 h-16 w-16 animate-spin fill-yellow-500 text-gray-400 dark:text-gray-600"
+            className=" mr-2 h-16 w-16 animate-spin fill-red-600 text-white-400 dark:text-gray-600"
             viewBox="0 0 100 101"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,7 @@ function List() {
               
                   <p>    vote:{movie.vote_average}/10</p>
               
-                  <progress className="progress progress-error w-56 border-0" value={movie.vote_average} max="10"></progress>
+                  <progress className="progress progress-error w-25 border-0" value={movie.vote_average} max="10"></progress>
                
 </div>
               </div>

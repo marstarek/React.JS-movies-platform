@@ -9,7 +9,6 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 export default function FilterSlider({ isLoading, movies, dispatch, getmovie }) {
   const [pageType, setPageType] = useState(28);
-  // const doubledFibonacciNumbers = movies.results.map((movie) => movie.genre_ids)
 
   return (
     <>
@@ -82,20 +81,14 @@ export default function FilterSlider({ isLoading, movies, dispatch, getmovie }) 
           <span className="sr-only">Loading...</span>
         </div>
         ) : (
-            
-
-
-
-
-
             <>
-              {}
+             
               {
                 
 
           movies ? movies.results.filter(movie => movie.genre_ids.includes(pageType)).map((movie) => (
 
-            <SwiperSlide        className='shadow-xl' key={movie.id}
+            <SwiperSlide        className='shadow-xl ' key={movie.id}
          style={{
             "backgroundImage":
               `url(http://image.tmdb.org/t/p/w500/${movie.poster_path})`,    "background-repeat": "no-repeat",
@@ -154,17 +147,6 @@ export default function FilterSlider({ isLoading, movies, dispatch, getmovie }) 
 
 
 
-        {/* {
-          
-          
-          
-          movies ? movies.results.filter(movie => movie.genre_ids.includes(pageType)).map(filteredName => (
-            
-          <li>
-          { console.log(filteredName) }
-            {filteredName.id}
-        </li>
-      )):"123"} */}
 
 
 

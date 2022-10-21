@@ -7,11 +7,11 @@ export const getmovies = createAsyncThunk(
   async (movieData, thunkAPI) => {
     const { rejectWithValue } = thunkAPI;
     try {
-      console.log(movieData.page);
+
       const result = await fetch(`https://api.themoviedb.org/3/movie/${movieData.moviepopular}?api_key=6a9ddc3df7630d56986815607058bfec&language=en-US&page=${movieData.page}`);
       
     const data = await result.json();
-      console.log(data);
+  
       return data;
 
     } catch (error) {
@@ -34,7 +34,7 @@ https://api.themoviedb.org/3/movie/${item}?api_key=6a9ddc3df7630d56986815607058b
       });
 
       const data = await result.json();
-      console.log(data);
+      
       return data;
     } catch (error) {
       return rejectWithValue(error.message);

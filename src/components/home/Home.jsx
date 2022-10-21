@@ -17,7 +17,7 @@ const Home = () => {
     
   }, [dispatch]);
   const {isLoading , movies,movieInfo} = useSelector((state) => state.movies);
-  console.log(movies, isLoading);
+
      return (
        <>
                
