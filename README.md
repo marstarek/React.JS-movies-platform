@@ -80,8 +80,10 @@ Install my-project with npm
 ## Demo
 
  link to demo
-[React.JS movies platform ](https://63528b829588ca3de3904278--fluffy-cuchufli-91a178.netlify.app/)
-[React.JS movies platform ](https://industrious-digestion.surge.sh/)
+
+[deployed on  surge ](https://industrious-digestion.surge.sh/)
+
+[deployed   on  netlify](https://fluffy-cuchufli-91a178.netlify.app/)
 
 
 
